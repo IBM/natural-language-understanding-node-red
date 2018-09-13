@@ -2,18 +2,9 @@
 
 Save Lives with Natural Language Understanding and Node-RED - Call for Code Hands on Lab
 
-## Hands-On Lab
-
-JeanCarl Bisson | jbisson@us.ibm.com | @dothewww
-
-Helen Lam | helen.lam@ibm.com | @helennnsays
-
-Anamita Guha | anamita.guha@ibm.com | @anamitag
-
 ## Introduction
 
-The Natural Language Understanding service analyzes text to extract meta-data from content such as concepts, entities, keywords, categories, sentiment, emotion, relations, semantic roles, using natural language understanding. This tutorial uses the Node-RED boilerplate in IBM Cloud with the Natural Language Understanding service found under the **Starter Kit** section of the IBM Cloud
-catalog. To get started using the Natural Language Understanding service, you’ll need to create service credentials. A digital copy of this lab and code snippets can be found at: https://github.com/IBM/natural-language-understanding-node-red.
+The Watson Natural Language Understanding service takes either a body of text or a publicly-accessible URL to content which the service can analyze. In this section, we will analyze a news article that is accessible via an URL. You can also choose to analyze other URLs that contain a body of text.
 
 ## Learning Objectives
 
@@ -33,6 +24,8 @@ After completing this tutorial you will be able to:
 You should be able to complete in 45 - 60 minutes.
 
 # Hands on Lab
+
+Follow the steps below to complete the lab.
 
 ## Step 1 - Set Up Your Node Red Boilerplate**
 

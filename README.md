@@ -10,7 +10,7 @@ The Watson Natural Language Understanding service takes either a body of text or
 
 After completing this tutorial you will be able to:
 
-* Instantiate a Node Red Starter Kit and a Watson Cloud service (Natural Language Understanding API) on IBM's Cloud
+* Instantiate a Node-RED Starter Kit and a Watson Cloud service (Natural Language Understanding API) on IBM's Cloud
 * Bind a Watson service to a Node Red application
 * Send a news article URL to the NLU API, and retrieve a table of the response in a table containing the concepts, entities, keywords,categories, sentiment, emotion, relations, and semantic roles
 
@@ -27,23 +27,23 @@ You should be able to complete in 45 - 60 minutes.
 
 Follow the steps below to complete the lab.
 
-## Step 1 - Set Up Your Node Red Boilerplate**
+## Step 1 - Set Up Your Node-RED Starter Kit
 
 1. Log in and click on Catalog in the top right nav. bar.
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_24EE0666F224CD27E72F26041F4521C1DF0F229C7CDD0C52E547CB024B22846E_1536802926926_Hello1.png)
 
-2. Click on “Starter Kits” in the left hand menu. Then click on the “Node Red Starter” option for the boilerplate. The boilerplate comes with:
+2. Click on “Starter Kits” in the left hand menu. Then click on the “Node-RED Starter” option for the starter kit. The Starter Kit comes with:
 * a Cloudant database instance to store your flow configuration.
 * a collection of nodes that make it easy to access various IBM Cloud services, including Watson, IoT and Blockchain services to name just a few.
-3. Write a name for your Node Red Boilerplate. You can write “node red” somewhere in the title, so you will not confuse with your other future IBM Cloud applications.
+3. Write a name for your Node-RED Starter Kit. You can write “node red” somewhere in the title, so you will not confuse with your other future IBM Cloud applications.
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_24EE0666F224CD27E72F26041F4521C1DF0F229C7CDD0C52E547CB024B22846E_1536803109239_Screen+Shot+2018-09-12+at+9.44.16+PM.png)
 
-4. It will take a few minutes (5–15 minutes) to instantiate. Once it is finished instantiating, you will see the green circle beside the name of your app where it will state “running.”  Click on “Visit App URL” to get to your new Node Red boilerplate. ![](https://d2mxuefqeaa7sj.cloudfront.net/s_24EE0666F224CD27E72F26041F4521C1DF0F229C7CDD0C52E547CB024B22846E_1536803327692_Screen+Shot+2018-09-12+at+9.46.10+PM.png)
+4. It will take a few minutes (5–15 minutes) to instantiate. Once it is finished instantiating, you will see the green circle beside the name of your app where it will state “running.”  Click on “Visit App URL” to get to your new Node-RED starter kit. ![](https://d2mxuefqeaa7sj.cloudfront.net/s_24EE0666F224CD27E72F26041F4521C1DF0F229C7CDD0C52E547CB024B22846E_1536803327692_Screen+Shot+2018-09-12+at+9.46.10+PM.png)
 
-5. Once you click on Visit App URL, you will be taken to your new Node Red app with a few set up instructions. You can choose to add a username or password, or leave unsecured. It is up to you. ![](https://d2mxuefqeaa7sj.cloudfront.net/s_24EE0666F224CD27E72F26041F4521C1DF0F229C7CDD0C52E547CB024B22846E_1536803369768_Screen+Shot+2018-09-12+at+9.46.59+PM.png)
+5. Once you click on Visit App URL, you will be taken to your new Node-RED app with a few set up instructions. You can choose to add a username or password, or leave unsecured. It is up to you. ![](https://d2mxuefqeaa7sj.cloudfront.net/s_24EE0666F224CD27E72F26041F4521C1DF0F229C7CDD0C52E547CB024B22846E_1536803369768_Screen+Shot+2018-09-12+at+9.46.59+PM.png)
 A few other options are available, just keep clicking “next” until you get to this final page. Click “Go to your Node-RED flow editor.” ![](https://d2mxuefqeaa7sj.cloudfront.net/s_24EE0666F224CD27E72F26041F4521C1DF0F229C7CDD0C52E547CB024B22846E_1536803420258_Screen+Shot+2018-09-12+at+9.47.09+PM.png)
 
-6. You will see your first flow. You are ready to begin your first Node Red flow. Congrats! ![](https://d2mxuefqeaa7sj.cloudfront.net/s_24EE0666F224CD27E72F26041F4521C1DF0F229C7CDD0C52E547CB024B22846E_1536803441275_Screen+Shot+2018-09-12+at+9.47.20+PM.png)
+6. You will see your first flow. You are ready to begin your first Node-RED flow. Congrats! ![](https://d2mxuefqeaa7sj.cloudfront.net/s_24EE0666F224CD27E72F26041F4521C1DF0F229C7CDD0C52E547CB024B22846E_1536803441275_Screen+Shot+2018-09-12+at+9.47.20+PM.png)
 
 ## Step 2 - Add Natural Language Understanding Service in IBM Cloud
 

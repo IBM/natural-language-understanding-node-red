@@ -1,9 +1,13 @@
-# natural-language-understanding-in-Node-RED
+# Natural-Language-Understanding-in-Node-RED
+
+Save Lives with Natural Language Understanding and Node-RED - Call for Code Hands on Lab
 
 ## Hands-On Lab
 
 JeanCarl Bisson | jbisson@us.ibm.com | @dothewww
+
 Helen Lam | helen.lam@ibm.com | @helennnsays
+
 Anamita Guha | anamita.guha@ibm.com | @anamitag
 
 ### Introduction
@@ -13,7 +17,7 @@ catalog. To get started using the Natural Language Understanding service, you’
 
 ### Learning Objectives
 
-After this tutorial, you will be able to:
+After completing this tutorial you will be able to:
 
 * Instantiate a Node Red Starter Kit and a Watson Cloud service (Natural Language Understanding API) on IBM's Cloud
 * Bind a Watson service to a Node Red application

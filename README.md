@@ -83,7 +83,7 @@ Get the code snippet here: ibm.biz/BdiBpU
 11. Depending on the content located at the URL, you may see a list of attributes including concepts, entities, keywords, categories, sentiment, emotion, relations, semantic roles and more mentioned within the text.
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_1AEB3DBAF25785993FDC403B0E2B8B399A989E775A0079D55BFA837929CCB61B_1536807797612_Screen+Shot+2018-09-12+at+11.01.00+PM.png)
 
-12.  To  see the JSON representation of the content insert format=json in the url query string.
+12.  To  see the JSON representation of the content insert `format=json` in the URL query string.
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_1AEB3DBAF25785993FDC403B0E2B8B399A989E775A0079D55BFA837929CCB61B_1536808333678_Screen+Shot+2018-09-12+at+11.11.42+PM.png)
 
 13. Return to Step #3 and experiment by disabling some of the features to see how the results change. Try analyzing other URLs and see what results are returned.

@@ -11,7 +11,7 @@ The Watson Natural Language Understanding service takes either a body of text or
 After completing this tutorial you will be able to:
 
 * Instantiate a Node-RED Starter Kit and a Watson Cloud service (Natural Language Understanding API) on IBM's Cloud
-* Bind a Watson service to a Node Red application
+* Bind a Watson service to a Node-RED application
 * Send a news article URL to the NLU API, and retrieve a table of the response in a table containing the concepts, entities, keywords,categories, sentiment, emotion, relations, and semantic roles
 
 ## Prerequisites

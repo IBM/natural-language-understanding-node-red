@@ -4,7 +4,7 @@ Save Lives with Natural Language Understanding and Node-RED - Call for Code Hand
 
 ## Introduction
 
-The Watson Natural Language Understanding service takes either a body of text or a publicly-accessible URL to content which the service can analyze. In this section, we will analyze a news article that is accessible via an URL. You can also choose to analyze other URLs that contain a body of text.
+The Watson Natural Language Understanding service takes either a body of text or a publicly-accessible web site which the service can analyze. In this section, we will analyze a news article that is accessible via a URL. You can also choose to analyze other URLs that contain a body of text.
 
 ## Learning Objectives
 
@@ -60,7 +60,7 @@ A few other options are available, just keep clicking “next” until you get t
 
 ## Step 3 - Analyze a News Article in Node-RED
 
-The Watson Natural Language Understanding service takes either a body of text or a publicly-accessible URL to content which the service can analyze. In this section, we will analyze a news article that is accessible via an URL. You can also choose to analyze other URLs that contain a body of text.
+The Watson Natural Language Understanding service takes either a body of text or a publicly-accessible URL to provide content which the service can analyze. In this section, we will analyze a news article that is accessible via an URL. You can also choose to analyze other URLs that contain a body of text.
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_1AEB3DBAF25785993FDC403B0E2B8B399A989E775A0079D55BFA837929CCB61B_1536806457518_Screen+Shot+2018-09-12+at+10.39.41+PM.png)
 
